@@ -22,6 +22,9 @@ bundle install
 rails db:migrate db:seed
 ```
 
+There is seed data in place so you can test your solution out in the browser or
+in Postman. You can also run `learn test` to run the tests.
+
 ## Deliverables
 
 Handle the following requests and return the appropriate JSON data in the response:
