@@ -29,13 +29,13 @@ in Postman. You can also run `learn test` to run the tests.
 
 Handle the following requests and return the appropriate JSON data in the response:
 
+### Users Show Route
+
 ```txt
 GET /users/:id
-```
 
-Example Response:
-
-```json
+Response Body
+-------
 {
   "id": 1,
   "username": "Dwayne",
@@ -51,13 +51,13 @@ Example Response:
 }
 ```
 
+### Items Index Route
+
 ```txt
 GET /items
-```
 
-Example Response:
-
-```json
+Response Body
+-------
 {
   "id": 1,
   "name": "Non-stick pan",
@@ -70,3 +70,9 @@ Example Response:
   }
 }
 ```
+
+## Resources
+
+- [Serialization: as_json][serialization]
+
+[serialization]: https://api.rubyonrails.org/classes/ActiveModel/Serializers/JSON.html#method-i-as_json
