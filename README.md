@@ -76,3 +76,4 @@ Response Body
 - [Serialization: as_json][serialization]
 
 [serialization]: https://api.rubyonrails.org/classes/ActiveModel/Serializers/JSON.html#method-i-as_json
+
