@@ -17,9 +17,9 @@ User -< Item
 
 Get the lab set up by running:
 
-```sh
-bundle install
-rails db:migrate db:seed
+```console
+$ bundle install
+$ rails db:migrate db:seed
 ```
 
 There is seed data in place so you can test your solution out in the browser or
@@ -76,4 +76,3 @@ Response Body
 - [Serialization: as_json][serialization]
 
 [serialization]: https://api.rubyonrails.org/classes/ActiveModel/Serializers/JSON.html#method-i-as_json
-
